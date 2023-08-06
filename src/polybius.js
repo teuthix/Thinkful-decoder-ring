@@ -32,7 +32,7 @@ const polybiusModule = (function () {
         }; //"the test tjtle" "just title"
         
         //when encoding, translates letters i AND j to 42
-        const inputTwo =lowercase.replaceAll("j", "i"); //"the test title" "iust title"
+        const inputTwo =lowercase.replace("j", "i"); //"the test title" "iust title"
         
         /* 
         access the array in each object
